@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 6;
+    padding: 0;
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    background: #2B292E;
+/*   background: linear-gradient(to right, #2B292E , rgb(30, 12, 13)); */
+    color: #fafafa;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem; /*字體*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.input {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+}
+span {
+    border-bottom: 2px solid #534f59;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0.1rem;
+    text-align: center;
+    text-transform:none;
+    width: 2.4rem;
+}
+
+/* h1 {
+    margin-bottom: 3rem;   
+}
+
+p {
+    font-weight: 1000;
+    margin-bottom: .8rem;
+    text-align: center
+} */
+
+#getpuzzle {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 4.8rem;
+    text-align: center
+}
+
+.button {
+    background: #8b51c9;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #603a88;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.8rem 2.0rem;
+    transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+    background: #5f3a87;
+}
